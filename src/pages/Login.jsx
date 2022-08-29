@@ -15,7 +15,7 @@ export const Login = () => {
   };
   return (
     <div>
-      <h1> Сторінка для логіну</h1>
+      <h1 className="login"> Сторінка для логіну</h1>
       <form onSubmit={login}>
         <MyInput type="text" placeholder="Введіть логін"></MyInput>
         <MyInput type="password" placeholder="Введіть пароль"></MyInput>
